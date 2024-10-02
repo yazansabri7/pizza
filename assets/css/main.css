@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.row{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+gap: 15px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.pizza-section{
+    width: calc((100% - 20px) / 2);
+    margin-top: 10px;
+    background-color: #eee;
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 40px;
+}
+.pizza-section img{
+    width: 100%;
+}
